@@ -31,13 +31,10 @@ body {
   color: #505050;
   text-align: left;
   font-family: "Roboto", sans-serif;
-    #font-size: 1.2em;
+  font-size: 1.2em;
   line-height: 1.5em;
-  transition: font-size 0.3s ease; /* Smooth transition */
-  overflow-wrap: break-word;
-  white-space: nowrap; 
-  #margin: 60px auto;
-  #width: 1000px;
+  margin: 60px auto;
+  width: 1000px;
 }
 
 a {
