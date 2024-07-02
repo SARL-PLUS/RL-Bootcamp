@@ -31,10 +31,8 @@ body {
   color: #505050;
   text-align: left;
   font-family: "Roboto", sans-serif;
-  font-size: clamp(1.5em, 4vw, 2em)
-  #font-size: 1.2em;
+    #font-size: 1.2em;
   line-height: 1.5em;
-  overflow-wrap: break-word;
   transition: font-size 0.3s ease; /* Smooth transition */
   overflow-wrap: break-word;
   white-space: nowrap; 
