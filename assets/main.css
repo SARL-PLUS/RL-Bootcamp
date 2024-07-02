@@ -149,12 +149,12 @@ td {
   top: 0px;
 }
 .bottom-right {
-  font-size: 2.33em;
+  font-size: 1.4em;
   color: #fafafa;
   line-height: 1.5em;
   width: auto;
   height: 100px;
-  padding: 0px 27px 27px 0px;
+  padding: 0px 10px 0px 0px;
   text-align: right;
   position: absolute;
   bottom: 0px;
@@ -165,7 +165,7 @@ td {
 /* Conference Title Logo */
 .title1 {
   color: #27639a;
-  font-size: 1.0em;
+  font-size: 0.46em;
   text-shadow: 1px 1px 3px #c0c0c0;
 }
 .title2 {
@@ -174,7 +174,7 @@ td {
 }
 .year {
   color: #505050;
-  font-size: 0.67em;
+  font-size: 0.6em;
   font-weight: lighter;
 }
 
