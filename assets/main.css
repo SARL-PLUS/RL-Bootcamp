@@ -138,12 +138,12 @@ td {
   font-family: "Roboto Slab", serif;
 }
 .top-left {
-  font-size: 5.33em;
+  font-size: 7em;
   color: #505050;
-  background: #fafafa;
+  /*background: #adc1ce;*/
   text-align: center;
   width: 1000px;
-  height: 70px;
+  height: 73px;
   position: absolute;
   padding: 0px 0 0 0;
   top: 0px;
