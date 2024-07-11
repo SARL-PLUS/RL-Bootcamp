@@ -7,24 +7,32 @@
     border-collapse: separate; /* Separates the borders of each cell */
     border-spacing: 20px 0; /* Adds space between the columns */
   }
+
   .image-cell {
     width: 30%;
     text-align: center;
     vertical-align: middle;
-      horiz-align: left;
   }
+
   .description-cell {
     width: 70%;
     vertical-align: middle;
-      horiz-align: center;
-    padding-left: 10px; /* Adjust this padding to manage the text spacing from the image */
     text-align: left;
+    padding-left: 10px; /* Adjust this padding to manage the text spacing from the image */
   }
+
+  .description-cell ul {
+    list-style-type: disc; /* Ensures bullet points are shown */
+    padding-left: 20px; /* Adds indentation to align the bullets properly */
+  }
+
   img {
     width: 100%; /* Adjust this to scale the image as needed */
-    /*border-radius: 9999px;*/
+    /* You can uncomment the next line if you want rounded images */
+    /* border-radius: 9999px; */
   }
 </style>
+
 
 <head>
     <base href=".">
@@ -86,16 +94,32 @@ RL applications in particle accelerators are very promising, but have been deplo
 The event is hosted by the Smart Analytics and Reinforcement Learning (SARL) team at IDA Lab, PLUS University of Salzburg, in collaboration with Fraunhofer Austria and AI Austria. It is offered free of charge to ensure accessibility for all those interested in Reinforcement Learning. We are thrilled about our lineup of keynote speakers and eagerly anticipate their presentations!
     </p>
 
-    <p>
-      <a href="https://sites.google.com/view/razp/home"><b>Razvan Pascanu</b></a
-      ><br />
-      <b>
-         Research Scientist<br />
-         Google DeepMind </b
-      ><br />
-    </p>
+<!--    <p>-->
+<!--      <a href="https://sites.google.com/view/razp/home"><b>Razvan Pascanu</b></a-->
+<!--      ><br />-->
+<!--      <b>-->
+<!--         Research Scientist<br />-->
+<!--         Google DeepMind </b-->
+<!--      ><br />-->
+<!--    </p>-->
 
 
+<table class="table-container">
+  <tr>
+    <!-- Column for Image and Basic Info -->
+    <td class="image-cell">
+      <img src="assets/speaker_razvan_pascanu_squared.png" alt="Razvan Pascanu" style="width: 70%; border-radius: 9999px" ;><br>
+       <a href="https://sites.google.com/view/razp/home"><b>Razvan Pascanu</b></a>
+      <b>Research Scientist<br>
+      Google DeepMind</b>
+    </td>
+    <!-- Column for Detailed Description -->
+    <td class="description-cell">
+        Raszvan Pascanu is a research scientiest at Google Deepmind. He received PhD from University of Montreal (2014), which I did under the supervision of prof. Yoshua Bengio. His research focuses on several key areas:
+        Understanding how to optimize deep models efficiently and at scale, making learning more data-efficient, particularly in Reinforcement Learning (RL) and exploring the dynamics of learning, especially under gradient descent conditions.
+    </td>
+  </tr>
+</table>
 <table class="table-container">
   <tr>
     <!-- Column for Image and Basic Info -->
@@ -133,7 +157,7 @@ The event is hosted by the Smart Analytics and Reinforcement Learning (SARL) tea
         As an AI Researcher at JOANNEUM RESEARCH in Graz, he brings a broad portfolio in artificial intelligence in academic and commercial settings. As a Research Associate at the University of Vienna, he gained experience applying various machine learning techniques, including computer vision and regression models, contributing to two FWF-funded research projects. At Deloitte, he led the deployment of advanced natural language processing solutions and was instrumental in pioneering RL applications. His expertise spans developing automated trading systems with RL and integrating RL into physical simulations.
     </td>
     <p>
-    </table>
+</table>
 
     <h2>Agenda</h2>
     <div style="display: flex; justify-content: center; align-items: center; height: 100vh; width: 60%; margin: auto;">
