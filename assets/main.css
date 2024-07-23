@@ -87,19 +87,15 @@ p a {
   text-decoration: underline;
   text-decoration-color: #b8860b;
 }
+
 ul {
-  list-style: none;
+  list-style: disc;
   margin: 24px auto 24px auto;
-  padding: 0px;
+  padding: 20px;
   width: 800px;
   text-align: left;
 }
-ul li {
-  list-style: none;
-  margin: 0px auto 0px auto;
-  padding: 0px;
-  text-align: left;
-}
+
 i,
 em {
   font-style: italic;
@@ -309,127 +305,136 @@ footer {
   h2 {
     font-size: 3em;
   }
+
   p {
     font-size: 1.5em;
     line-height: 1.5em;
   }
+
   th,
   td,
   tr {
     font-size: 1.5em;
     line-height: 1.5em;
   }
+
   td.date {
     font-size: 1em;
     padding-top: 0.5em;
   }
+
   td.navigation {
     font-size: 1.5em;
     padding: 0px 20px 0px 20px;
   }
+
   table.footer {
     font-size: 0.33em;
   }
+
   /* Base styles for the table */
-.table-container {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.table-container td {
-  padding: 1rem;
-  vertical-align: top;
-}
-
-.image-cell {
-  text-align: center; /* Centering content in the image cell */
-}
-
-.description-cell {
-  text-align: left; /* Align text to the left in the description cell */
-}
-
-/* Responsive styles */
-@media only screen and (max-width: 1100px) {
   .table-container {
-    display: block;
     width: 100%;
-    overflow-x: auto; /* Adds horizontal scrolling if needed */
+    border-collapse: collapse;
   }
 
   .table-container td {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0.5rem;
+    padding: 1rem;
+    vertical-align: top;
   }
 
-  .table-container td + td {
-    border-top: 1px solid #ddd; /* Adds a border to separate cells */
-  }
-
-  .image-cell img {
-    width: 100%; /* Ensures image fits within the cell */
-    height: auto; /* Keeps image aspect ratio */
-  }
-
-  .image-cell a {
-    display: block;
-    margin-top: 0.5rem;
+  .image-cell {
+    text-align: center; /* Centering content in the image cell */
   }
 
   .description-cell {
-    margin-top: 0.5rem;
-  }
-/* Base styles for the table */
-.table-container {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.table-container td {
-  padding: 1rem;
-  vertical-align: top;
-}
-
-.image-cell {
-  text-align: center; /* Centering content in the image cell */
-}
-
-.description-cell {
-  text-align: left; /* Align text to the left in the description cell */
-}
-
-/* Responsive styles */
-@media only screen and (max-width: 1100px) {
-  .table-container {
-    display: block;
-    width: 100%;
-    overflow-x: auto; /* Adds horizontal scrolling if needed */
+    text-align: left; /* Align text to the left in the description cell */
   }
 
-  .table-container td {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0.5rem;
-  }
+  /* Responsive styles */
+  @media only screen and (max-width: 1100px) {
+    .table-container {
+      display: block;
+      width: 100%;
+      overflow-x: auto; /* Adds horizontal scrolling if needed */
+    }
 
-  .table-container td + td {
-    border-top: 1px solid #ddd; /* Adds a border to separate cells */
-  }
+    .table-container td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0.5rem;
+    }
 
-  .image-cell img {
-    width: 100%; /* Ensures image fits within the cell */
-    height: auto; /* Keeps image aspect ratio */
-  }
+    .table-container td + td {
+      border-top: 1px solid #ddd; /* Adds a border to separate cells */
+    }
 
-  .image-cell a {
-    display: block;
-    margin-top: 0.5rem;
-  }
+    .image-cell img {
+      width: 100%; /* Ensures image fits within the cell */
+      height: auto; /* Keeps image aspect ratio */
+    }
 
-  .description-cell {
-    margin-top: 0.5rem;
+    .image-cell a {
+      display: block;
+      margin-top: 0.5rem;
+    }
+
+    .description-cell {
+      margin-top: 0.5rem;
+    }
+
+    /* Base styles for the table */
+    .table-container {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .table-container td {
+      padding: 1rem;
+      vertical-align: top;
+    }
+
+    .image-cell {
+      text-align: center; /* Centering content in the image cell */
+    }
+
+    .description-cell {
+      text-align: left; /* Align text to the left in the description cell */
+    }
+
+    /* Responsive styles */
+    @media only screen and (max-width: 1100px) {
+      .table-container {
+        display: block;
+        width: 100%;
+        overflow-x: auto; /* Adds horizontal scrolling if needed */
+      }
+
+      .table-container td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5rem;
+      }
+
+      .table-container td + td {
+        border-top: 1px solid #ddd; /* Adds a border to separate cells */
+      }
+
+      .image-cell img {
+        width: 100%; /* Ensures image fits within the cell */
+        height: auto; /* Keeps image aspect ratio */
+      }
+
+      .image-cell a {
+        display: block;
+        margin-top: 0.5rem;
+      }
+
+      .description-cell {
+        margin-top: 0.5rem;
+      }
+    }
   }
 }
